@@ -4,6 +4,69 @@
 
 Saya Raffi Akbar Ardiansyah dengan NIM 2511604 mengerjakan Tugas Praktikum 5 pada Mata Kuliah Desain dan Pemrograman Berorientasi Objek (DPBO) untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
+## Struktur File
+
+```
+│   db_people.sql
+│   README.md
+│
+├───Dokumentasi
+│       Delete  berhasil.png
+│       Error jika kosong.png
+│       Error jika sama.png
+│       Hapus Data.gif
+│       konfirmasi Delete .png
+│       Tambah Berhasil.png
+│       Tambah Data.gif
+│       Update Berhasil.png
+│       Update Data.gif
+│
+└───PersonData
+    │   PersonData.iml
+    │
+    ├───.idea
+    │       .name
+    │       misc.xml
+    │       modules.xml
+    │       uiDesigner.xml
+    │       workspace.xml
+    │
+    ├───lib
+    │       mysql-connector-j-26.7.0.jar
+    │
+    ├───production
+    │   └───PersonData
+    │       │   Database.class
+    │       │   Main.class
+    │       │   PeopleMenu$1.class
+    │       │   PeopleMenu.class
+    │       │   Person.class
+    │       │
+    │       └───com
+    │           └───intellij
+    │               └───uiDesigner
+    │                   └───core
+    │                           AbstractLayout.class
+    │                           DimensionInfo.class
+    │                           GridConstraints.class
+    │                           GridLayoutManager.class
+    │                           HorizontalInfo.class
+    │                           LayoutState.class
+    │                           Spacer.class
+    │                           SupportCode$TextWithMnemonic.class
+    │                           SupportCode.class
+    │                           Util.class
+    │                           VerticalInfo.class
+    │
+    └───src
+            Database.java
+            Main.java
+            PeopleMenu.form
+            PeopleMenu.java
+            Person.java
+
+   ```
+
 ## Fungsi Program
 
 Program ini dibuat untuk mengolah data penduduk atau warga dengan ruang lingkup kampus JokoWowo. Program dikembangkan menggunakan bahasa pemrograman Java dengan antarmuka grafis (GUI) Java Swing dan database MySQL sebagai tempat penyimpanan data.
@@ -84,6 +147,7 @@ Komponen yang digunakan antara lain:
 - **JTable** untuk menampilkan data yang tersimpan di database.
 - **JScrollPane** untuk memungkinkan pengguna menggulir tabel apabila data yang ditampilkan banyak.
 - **JOptionPane** untuk menampilkan pesan validasi, kesalahan, dan konfirmasi penghapusan.
+
 
 ## Dokumentasi
 
