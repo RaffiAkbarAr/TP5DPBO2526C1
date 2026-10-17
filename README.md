@@ -85,14 +85,6 @@ Komponen yang digunakan antara lain:
 - **JScrollPane** untuk memungkinkan pengguna menggulir tabel apabila data yang ditampilkan banyak.
 - **JOptionPane** untuk menampilkan pesan validasi, kesalahan, dan konfirmasi penghapusan.
 
-## Database
-
-Program menggunakan database MySQL yang diakses melalui JDBC. Database dan tabel perlu dibuat terlebih dahulu menggunakan file SQL yang disertakan dalam proyek.
-
-Pastikan konfigurasi koneksi database pada class `Database` sesuai dengan pengaturan MySQL yang digunakan, termasuk nama database, username, dan password.
-
-Driver MySQL Connector/J juga harus ditambahkan ke dependencies proyek agar aplikasi Java dapat terhubung ke database.
-
 ## Dokumentasi
 
 ### Tambah Data
